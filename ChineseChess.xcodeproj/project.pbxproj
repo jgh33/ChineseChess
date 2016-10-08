@@ -147,9 +147,9 @@
 				TargetAttributes = {
 					D55AF15F1D75ADBF00625417 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2L8683256Z;
+						DevelopmentTeam = U28X3G4N5K;
 						DevelopmentTeamName = "国辉 焦 (Personal Team)";
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -325,10 +325,14 @@
 		D55AF1731D75ADC000625417 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = U28X3G4N5K;
 				INFOPLIST_FILE = ChineseChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scau.jgh.ChineseChess;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scau.jgh.ChineseChesss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f44bf8f8-a4ba-4a70-9598-de713be36dc2";
+				PROVISIONING_PROFILE_SPECIFIER = "ChineseChess-r";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -336,10 +340,14 @@
 		D55AF1741D75ADC000625417 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = U28X3G4N5K;
 				INFOPLIST_FILE = ChineseChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scau.jgh.ChineseChess;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scau.jgh.ChineseChesss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f44bf8f8-a4ba-4a70-9598-de713be36dc2";
+				PROVISIONING_PROFILE_SPECIFIER = "ChineseChess-r";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
